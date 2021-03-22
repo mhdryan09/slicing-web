@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+
+.bg-header {
+    background-image: url("assets/content/bg-header.png");
+    background-size: 100% 100%;
+    height: 180px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.navbar {
+    padding-top: 20px;
+}
+
+.navbar-brand h1 {
+    font-weight: 500;
+    color: #fff;
+}
+
+.navbar-brand h1 span {
+    font-weight: 200;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 18px;
+    position: relative;
+}
+
+.nav-link:hover::before
+{
+    content: '';
+    position: absolute;
+    background: #ffc443;
+    height: 8px;
+    width: 50%;
+    bottom: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 12px;
+}
+
+.active2 {
+    position: relative;
+}
+
+.active2::before
+{
+    content: '';
+    position: absolute;
+    background: #ffc443;
+    height: 8px;
+    width: 50%;
+    bottom: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 12px;
+}
+
+.wrap-search {
+    position: relative;
+    border: 12px;
+    width: 33%;
+    height: 50px;
+    margin-top: 13px;
+}
+
+.form-control {
+    position: absolute;
+    left: 30px;
+    width: 100%;
+    height: 100%;
+    background: #651b30 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 25px;
+    padding: 0 25px;
+}
+
+.form-control::placeholder {
+    color: #fff;
+}
+
+.form-control[type="text"]{
+    color: #fff;
+}
+
+.form-control:focus
+{
+    background: #651b30 0% 0% no-repeat padding-box;
+    /* color: #fff; */
+    box-shadow: none;
+}
+.icon-search {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+}
+
+/* style untuk content */
+.content {
+    padding-top: 200px;
+}
+
+/* carousel */
+.carousel-inner {
+    border-radius: 12px;
+}
+
+.carousel-indicators li {
+    height: 10px;
+    border-bottom: 0;
+    border-top: 0;
+    border-radius: 12px;
+}
+
+.carousel-indicators li.active {
+    height: 10px;
+    width: 70px;
+    background: #ffa700;
+}
+
+.overlay {
+    position: absolute;
+    background-color: #0000005e;
+    height: 38%;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+    padding: 20px;
+}
+
+.overlay h4 {
+    font-weight: 600;
+}
+
+.overlay p, .headline p {
+    font-weight: 200;
+}
+
+.card-1 {
+    padding: 8px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    position: relative;
+}
+
+.top-headline {
+    position: absolute;
+    background: transparent linear-gradient(180deg, #ff7600 0%, #ffa700 100%)
+    0% 0% no-repeat padding-box;
+    right: 0px;
+    top: -12px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+/* content card live streaming */
+
+.garis1 {
+    position: absolute;
+    height: 20px;
+    width: 80%;
+    background: #b24a67 0% 0% no-repeat padding-box;
+    top: -10px;
+    right: -8px;
+    z-index: 12;
+    border-radius: 20px;
+}
+
+.garis2 {
+    position: absolute;
+    height: 20px;
+    width: 80%;
+    background: #b24a67 0% 0% no-repeat padding-box;
+    bottom: -10px;
+    left: -8px;
+    z-index: 12;
+    border-radius: 20px;
+}
+
+.streaming {
+    background:#c65473 0% 0% no-repeat padding-box;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.bg-content {
+    position: absolute;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    z-index: 4;
+}
+
+.card2 {
+    height: 60%;
+    width: 100%;
+    position: relative;
+    left: 10px;
+    z-index: 5;
+}
+
+.img-card-2 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.overlay2 {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    background-color: #0000005e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay2 span {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.live-now {
+    position: absolute;
+    background: transparent linear-gradient(180deg, #ff7600 0%, #ffa700 100%)
+    0% 0% no-repeat padding-box;
+    left: -10px;
+    top: -10px;
+    z-index: 2;
+    border-radius: 5px;
+    padding: 0 10px 5px 10px;
+}
+
+.live-now span {
+    color: #fff;
+    font-size: 13px;
+}
+
+.headline {
+    padding: 2px 5px;
+}
+
+.carousel-item img {
+    height: 395px;
+}
+
+
+/* footer */
+.footer {
+    height: 100px;
+    width: 100%;
+    background:#c65473 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+}
+
+
+
