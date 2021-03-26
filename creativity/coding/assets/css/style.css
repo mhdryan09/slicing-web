@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 76px;
+    align-items: center;
+}
+
+.nav-brand {
+    font-size: 24px;
+    font-weight: 700;
+    color: #232323;
+}
+
+.nav-items {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #232323;
+}
+
+.nav-link.active {
+    font-weight: 600;
+    border-bottom: 3px solid #456EFF;
+}
+
+.btn-secondary {
+    padding: 12px 22px;
+    color: #456EFF;
+    background-color: transparent;
+    border: 2px solid #456EFF;
+    border-radius: 100px;
+    font-weight: 600;
+}
+
+/* hero section */
+section.hero {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+h1.text-title {
+    font-size: 44px;
+    color: #232323;
+}
+
+.text-title {
+    padding-top: 144px;
+}
+
+p.text-muted {
+    font-size: 16px;
+    color: #7C7C7C;
+    margin: 16px 0;
+}
+
+button.btn-primary {
+    padding: 22px 58px;
+    background-color: #456EFF;
+    border-radius: 100px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    margin: 24px 0;
+}
+
+.jumbotron-img {
+    padding-top: 20px;
+    position: relative;
+}
+
+.jumbotron-img img {
+    position: absolute;
+    right: 0;
+}
+
+.play {
+    position: absolute;
+    left: -60px;
+    bottom: -100px;
+}
