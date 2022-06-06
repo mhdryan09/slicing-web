@@ -206,7 +206,7 @@ h2 {
 
 .input-cari .button-secondary {
 	width: 200px;
-	height: 88px;
+	height: 75px;
 	background-color: rgba(255, 255, 255, 0.8);
 	color: var(--pr-color);
 	font-size: 18px;
@@ -216,7 +216,7 @@ h2 {
 }
 
 .input-cari .button-primary {
-	height: 88px;
+	height: 75px;
 	background-color: var(--pr-color);
 	color: #fff;
 	border: none;
@@ -255,7 +255,7 @@ h2 {
 	color: #000;
 	font-weight: 600;
 	font-size: 24px;
-	line-height: .8rem;
+	line-height: 0.8rem;
 }
 
 .card-body p {
@@ -266,18 +266,18 @@ h2 {
 
 .card:hover {
 	background: linear-gradient(170deg, var(--pr-color), #007245, #007245, #000);
-	box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
-	transition: all ease-in-out .3s;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+	transition: all ease-in-out 0.3s;
 }
 
 .card:hover .card-body h4 {
 	color: #fff;
-	transition: all ease-in-out .2s;
+	transition: all ease-in-out 0.2s;
 }
 
 .card:hover .card-body p {
 	color: #fff;
-	transition: all ease-in-out .3s;
+	transition: all ease-in-out 0.3s;
 }
 
 .card-fasilitas {
@@ -345,7 +345,7 @@ h2 {
 .card-fitur .overlay {
 	background-color: rgba(0, 0, 0, 0);
 	opacity: 0;
-	transition: all ease-in-out .3s;
+	transition: all ease-in-out 0.3s;
 }
 
 .card-fitur .overlay:hover {
@@ -370,6 +370,7 @@ h2 {
 	height: 61px;
 	background-color: var(--pr-color);
 	padding: 0;
+	right: -120px;
 }
 
 .arrow {
@@ -377,4 +378,128 @@ h2 {
 	top: 0;
 	left: -5px;
 	top: -5px;
+}
+
+/* Contact form */
+#contact {
+	background-image: url(../assets/kontak-img.png);
+	margin-top: 158px;
+	/* padding: 148px 0 148px 0; */
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#contact .overlay {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#contact .container {
+	padding: 148px 0 148px 0;
+}
+
+#contact h3 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 60px;
+	color: #fff;
+	width: 500px;
+}
+
+#contact h6 {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	color: #fff;
+	margin: 19px 0 14px 0;
+}
+
+.kontak a {
+	font-size: 16px;
+	line-height: 18px;
+	text-decoration: none;
+	color: #fff;
+	margin-left: 18px;
+	width: 332px;
+	display: inline-block;
+}
+
+.linkrumah {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.card-contact {
+	width: 100%;
+	height: 445px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 52px 48px;
+}
+
+.card-contact h2 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 60px;
+	color: #00985b;
+	text-align: center;
+	margin-bottom: 21px;
+}
+
+.form-control {
+	background: #c4c4c4;
+	height: 75px !important;
+	border-radius: 0;
+}
+
+.form-floating label {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 18px;
+	color: #717171;
+}
+
+.button-kontak {
+	width: 100%;
+	height: 75px;
+	background: #00985b;
+	border: none;
+	color: #fff;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+footer {
+	width: 100%;
+	height: 270px;
+	background: #000;
+}
+
+.copyright {
+	bottom: 5%;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: #fff;
+}
+
+footer a {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.foot a:hover {
+	color: #00985b;
 }
