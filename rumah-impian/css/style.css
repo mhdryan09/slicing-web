@@ -49,6 +49,16 @@ body {
 	font-weight: 400;
 }
 
+/* Navbar Responsive */
+.nav-color {
+	background-color: #007245;
+	transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+	transition: all ease-in-out 0.3s;
+}
+
 /* Hero */
 #hero {
 	background: linear-gradient(160deg, var(--pr-color), #000);
